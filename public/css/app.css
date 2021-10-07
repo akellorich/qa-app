@@ -10029,3 +10029,7 @@ h3 {
 .counters .views {
   margin-top: 15px;
 }
+
+form.form-delete {
+  display: inline;
+}
