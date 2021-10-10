@@ -24,11 +24,11 @@
                                 </div>
 
                                 <div class="answers {{$question->status}}">
-                                    <strong>{{ $question->answers}} </strong>{{str_plural('Answer',$question->answers)}}
+                                    <strong>{{ $question->answers_count}} </strong>{{str_plural('Answer',$question->answers_count)}}
                                 </div>
                                     
                                 <div class="views">
-                                    {{ $question->views." ". str_plural('View',$question->answers)}}
+                                    {{ $question->views." ". str_plural('View',$question->views)}}
                                 </div>
 
                             </div>

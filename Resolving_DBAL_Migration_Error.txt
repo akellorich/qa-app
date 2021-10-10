@@ -1,0 +1,11 @@
+The changes that i made to make this workable are given below
+
+composer.json file changed
+
+ "doctrine/dbal": "^3.0",
+this changed with
+
+"doctrine/dbal": "^2.0",
+then run the command
+
+composer update 
