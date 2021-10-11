@@ -19,7 +19,7 @@
                                 <i class="fas fa-caret-down fa-2x"></i>
                             </a>
 
-                            <a href="#" title="Mark as Best answer" class='favorite mt-2 vote-accepted'>
+                            <a href="#" title="Mark as Best answer" class='favorite mt-2 {{$answer->status}}'>
                                 <i class="fas fa-check fa-lg"></i>
                             </a>
                         </div>

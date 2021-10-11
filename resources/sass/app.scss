@@ -81,10 +81,12 @@ form.form-delete{
             &.favorited, &.favorited:hover{
                 color: $warning;
             }
+            
+            .vote-accepted{
+            color:$green;
+            }
         }
 
-        .vote-accepted{
-            color:$green;
-        }
+       
     }
 }
